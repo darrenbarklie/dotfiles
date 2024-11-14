@@ -1,0 +1,14 @@
+# zmodload zsh/zprof
+
+# fnm: faster node manager
+eval "$(fnm env --use-on-cd --shell zsh --version-file-strategy=recursive)"
+
+
+# starship
+eval "$(starship init zsh)"
+
+
+# zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zprof
