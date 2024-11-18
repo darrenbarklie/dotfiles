@@ -8,6 +8,7 @@
 - `echo >> /Users/daz/.zprofile`
 - `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/daz/.zprofile`
 - `eval "$(/opt/homebrew/bin/brew shellenv)"`
+- Ref: https://docs.brew.sh/FAQ#how-do-i-update-my-local-packages
 
 ### iTerm2
 
@@ -137,10 +138,39 @@ _NOTE_: Retired for fnm
 
 ### Zed
 
-- `brew install zed`
+- `brew install --cask zed`
+
+### Postman"
+
+- `brew install --cask postman`
+
+### Laravel Herd
+
+- `brew install --cask herd`
+
+### WP CLI
+
+- `brew install wp-cli`
+- `wp --info`
+- `wp core download --path=~/Users/daz/Herd/projectname`
+- `wp config create --dbname=projectname --dbuser=root --dbpass='' --dbhost=127.0.0.1`
+- `wp db create`
+
+### DBngin
+
+- `brew install --cask dbngin`
+
+### MySQL Client
+
+- `brew install mysql-client`
+- Add to .zshrc `export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"`
+
+### Expo / Expo Orbit
+
+- `brew install expo-orbit`
+- `pnpm add --global eas-cli`
 
 
 ## Todo
 
-- [chezmoi](https://www.chezmoi.io/)
 - [Aerospace](https://nikitabobko.github.io/AeroSpace/guide)

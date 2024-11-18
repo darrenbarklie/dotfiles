@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Darren Barklie
+	email = darrenbarklie@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Darren Barklie
+#	email = darrenbarklie@gmail.com
+[push]
+	autoSetupRemote = true

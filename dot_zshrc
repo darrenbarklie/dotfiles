@@ -1,5 +1,6 @@
 # zmodload zsh/zprof
 
+
 # fnm: faster node manager
 eval "$(fnm env --use-on-cd --shell zsh --version-file-strategy=recursive)"
 
@@ -10,5 +11,18 @@ eval "$(starship init zsh)"
 
 # zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+# mysql-client
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+
+# Herd injected PHP 8.3 config
+export HERD_PHP_83_INI_SCAN_DIR="/Users/daz/Library/Application Support/Herd/config/php/83/"
+
+
+# Herd injected PHP binary
+export PATH="/Users/daz/Library/Application Support/Herd/bin/":$PATH
+
 
 # zprof
