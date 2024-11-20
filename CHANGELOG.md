@@ -165,10 +165,43 @@ _NOTE_: Retired for fnm
 - `brew install mysql-client`
 - Add to .zshrc `export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"`
 
+
+## 2024-11-18
+
 ### Expo / Expo Orbit
 
 - `brew install expo-orbit`
 - `pnpm add --global eas-cli`
+
+### XCode
+
+- Installed via Apple App Store
+- Installed components for macOS
+- Installed components for iOS
+- Installed iOS 18 Simulator
+
+### Android Studion
+
+- `brew install --cask android-studio`
+
+### MOTU MSeries Drivers
+
+- Visit [MOTU Downloads](https://motu.com/en-us/download/product/408/)
+- Download MUTU M-Series Installer, 1 Oct 2024
+
+### Xata
+
+- `brew tap xataio/brew && brew install xata`
+
+### VS Code
+
+- `brew install --cask visual-studio-code`
+
+## 2024-11-20
+
+- `brew install --cask nordvpn`
+
+
 
 
 ## Todo
