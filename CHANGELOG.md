@@ -200,9 +200,19 @@ _NOTE_: Retired for fnm
 ## 2024-11-20
 
 - `brew install --cask nordvpn`
+- `brew install --cask raycast`
 
+## 2024-11-23
 
+- `brew install --cask google-cloud-sdk`
 
+## 2024-11-24
+
+- `brew install --cask figma`
+
+## 2024-11-26
+
+- `brew install --cask claude`
 
 ## Todo
 
