@@ -213,6 +213,13 @@ _NOTE_: Retired for fnm
 ## 2024-11-26
 
 - `brew install --cask claude`
+- `brew install flyctl`
+
+## 2024-11-28
+
+- `brew install --cask linear-linear`
+- `brew install --cask docker`
+
 
 ## Todo
 
